@@ -52,30 +52,39 @@ elif genr == "comedy":
 		print(length)
 		if dat == 1990:
 			print(dat)
+			print("Long Comedy Mangas in the 1990s")
 		elif dat == 2000:
 			print(dat)
+			print("Long Comedy Mangas in the 2000s")
 		elif dat == 2010:
 			print(dat)
+			print("Long Comedy Mangas in the 2000s")
 		else:
 			print("Please choose within the Options")
 	elif length == "short":
 		print(length)
 		if dat == 1990:
 			print(dat)
+			print("Short Comedy Mangas in the 1990s:")
 		elif dat == 2000:
 			print(dat)
+			print("Short Comedy Mangas in the 2000s")
 		elif dat == 2010:
 			print(dat)
+			print("Short Comedy Mangas in the 2000s")
 		else:
 			print("Please choose within the Options")
 	elif length == "Medium":
 		print(length)
 		if dat == 1990:
 			print(dat)
+			print("Medium Comedy Mangas in the 1990s:")
 		elif dat == 2000:
 			print(dat)
+			print("Medium Comedy Mangas in the 1990s:")
 		elif dat == 2010:
 			print(dat)
+			print("Medium Comedy Mangas in the 1990s:")
 		else:
 			print("Please choose within the Options")
 	else:
@@ -86,30 +95,39 @@ elif genr == "horror":
 		print(length)
 		if dat == 1990:
 			print(dat)
+			print("Long Horror Mangas in the 1990s:")
 		elif dat == 2000:
 			print(dat)
+			print("Long Horror Mangas in the 1990s:")
 		elif dat == 2010:
 			print(dat)
+			print("Long Horror Mangas in the 1990s:")
 		else:
 			print("Please choose within the Options")
 	elif length == "short":
 		print(length)
 		if dat == 1990:
 			print(dat)
+			print("Short Horror Mangas in the 1990s:")
 		elif dat == 2000:
 			print(dat)
+			print("Short Horror Mangas in the 1990s:")
 		elif dat == 2010:
 			print(dat)
+			print("Short Horror Mangas in the 1990s:")
 		else:
 			print("Please choose within the Options")
 	elif length == "Medium":
 		print(length)
 		if dat == 1990:
 			print(dat)
+			print("Medium Horror Mangas in the 1990s:")
 		elif dat == 2000:
 			print(dat)
+			print("Medium Horror Mangas in the 1990s:")
 		elif dat == 2010:
 			print(dat)
+			print("Medium Horror Mangas in the 1990s:")
 		else:
 			print("Please choose within the Options")
 	else:
@@ -120,30 +138,39 @@ elif genr == "action":
 		print(length)
 		if dat == 1990:
 			print(dat)
+			print("Long Action Mangas in the 1990s:")
 		elif dat == 2000:
 			print(dat)
+			print("Long Action Mangas in the 1990s:")
 		elif dat == 2010:
 			print(dat)
+			print("Long Action Mangas in the 1990s:")
 		else:
 			print("Please choose within the Options")
 	elif length == "short":
 		print(length)
 		if dat == 1990:
 			print(dat)
+			print("Short Action Mangas in the 1990s:")
 		elif dat == 2000:
 			print(dat)
+			print("Short Action Mangas in the 1990s:")
 		elif dat == 2010:
 			print(dat)
+			print("Short Action Mangas in the 1990s:")
 		else:
 			print("Please choose within the Options")
 	elif length == "Medium":
 		print(length)
 		if dat == 1990:
 			print(dat)
+			print("Medium Action Mangas in the 1990s:")
 		elif dat == 2000:
 			print(dat)
+			print("Medium Action Mangas in the 1990s:")
 		elif dat == 2010:
 			print(dat)
+			print("Medium Action Mangas in the 1990s:")
 		else:
 			print("Please choose within the Options")
 	else:
@@ -154,33 +181,43 @@ elif genr == "Mystery":
 		print(length)
 		if dat == 1990:
 			print(dat)
+			print("Long Horror Mangas in the 1990s:")
 		elif dat == 2000:
 			print(dat)
+			print("Long Horror Mangas in the 1990s:")
 		elif dat == 2010:
 			print(dat)
+			print("Long Horror Mangas in the 1990s:")
 		else:
 			print("Please choose within the Options")
 	elif length == "short":
 		print(length)
 		if dat == 1990:
 			print(dat)
+			print("Short Horror Mangas in the 1990s:")
 		elif dat == 2000:
 			print(dat)
+			print("Short Horror Mangas in the 1990s:")
 		elif dat == 2010:
 			print(dat)
+			print("Short Horror Mangas in the 1990s:")
 		else:
 			print("Please choose within the Options")
 	elif length == "Medium":
 		print(length)
 		if dat == 1990:
 			print(dat)
+			print("Medium Horror Mangas in the 1990s:")
 		elif dat == 2000:
 			print(dat)
+			print("Medium Horror Mangas in the 1990s:")
 		elif dat == 2010:
 			print(dat)
+			print("Medium Horror Mangas in the 1990s:")
 		else:
 			print("Please choose within the Options")
 	else:
 		print("Please choose within the Options.")
 else:
+
 	print("Please choose within the Options.")
