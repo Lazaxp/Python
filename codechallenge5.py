@@ -14,7 +14,7 @@ if genr == "romance":
 	elif length == "long" and dat == 2010:
 		print(dat)
 		pirnt("Long Romance Mangas in the 2010's:\nKomi Can't Communicate")
-	if length == "short" and dat == 1990:
+	elif length == "short" and dat == 1990:
 		print(dat)
 		print("Short Romance Mangas in the 1990's:\nKaguya Hime")
 	elif length == "short" and dat == 2000:
@@ -161,5 +161,6 @@ elif genr == "Mystery":
 else:
 
 	print("Please choose within the Options.")
+
 
 
