@@ -1,7 +1,7 @@
 #Get the summation of every odd input
 pre = 0
 for x in range(10):
-	a = eval(input(x,"input numbers numbers 10 times"))
+	a = eval(input("input numbers numbers 10 times"))
     lev = a % 2
     if lev == 1:
 		pre+=a
