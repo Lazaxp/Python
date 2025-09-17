@@ -31,17 +31,17 @@ Logical operators
 activity 10 (https://github.com/Lazaxp/Python/blob/main/Activity10.py)
 conditional statements
 
-activity 11
+activity 11 (https://github.com/Lazaxp/Python/blob/main/activity11.py)
+Application of Elif in conditional statements
 
+activity 12 (
+Application of For Loops
 
-activity 12
+activity 13 (https://github.com/Lazaxp/Python/blob/main/activity13.py)
+Summation of numbers entered of user using For Loops
 
-
-activity 13
-
-
-activity 14
-
+activity 14 (https://github.com/Lazaxp/Python/blob/main/activity14.py)
+Using for loops to count backwards
 
 code challenge 1 (https://github.com/Lazaxp/Python/blob/main/codechallenge1.py)
 Diamond Shaped Asterisks with User name input in the middle
