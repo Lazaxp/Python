@@ -8,7 +8,7 @@ activity 2 (https://github.com/Lazaxp/Python/blob/main/activity2.py)
 classifying a variable and using the input command
 
 activity 3 (https://github.com/Lazaxp/Python/blob/main/activity3.py)
-the use of \\
+The Use of Floored Division
 
 activity 4 (https://github.com/Lazaxp/Python/blob/main/Activity4.py)
 word length reader
@@ -34,7 +34,7 @@ conditional statements
 activity 11 (https://github.com/Lazaxp/Python/blob/main/activity11.py)
 Application of Elif in conditional statements
 
-activity 12 (
+activity 12 (https://github.com/Lazaxp/Python/blob/main/activity14.py)
 Application of For Loops
 
 activity 13 (https://github.com/Lazaxp/Python/blob/main/activity13.py)
