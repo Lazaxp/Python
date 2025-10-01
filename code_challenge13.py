@@ -32,4 +32,5 @@ for z in range (2,10):
         print("*",end=" ")
     print()
 for l in range (1,5):
-    print("\t\t* *")
+
+    print("\t\t*   *")
