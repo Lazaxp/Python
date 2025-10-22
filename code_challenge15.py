@@ -3,7 +3,7 @@ while True:
   show = input("Reccomend any anime for me").capitalize()
   anilist.append(show)
   if show == "Rent-a-girlfriend" or show == "Rent a girlfriend":
-    print("pass"
+    print("pass")
     anilist.remove(show)
   elif show == "Initial d":
     print("K-kansei dorifuto??")
