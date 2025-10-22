@@ -10,7 +10,7 @@ while True:
   elif show == "Saiki k" or show == "The disastrous life of saiki k":
     print("GOAT.")
   else:
-    print("cool!)
+    print("cool!")
   if show == "Exit":
     print("Reccomendation ended")
     break
