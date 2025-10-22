@@ -16,6 +16,6 @@ while True:
     break
 print("Here were your selection")
 for x in anilist
-  print(f",{x}")
+  print(f",{x}"):
 print("Thank you!")  
     
