@@ -15,7 +15,7 @@ while True:
     print("Reccomendation ended")
     break
 print("Here were your selection")
-for x in anilist
-  print(f",{x}"):
+for x in anilist:
+  print(f",{x}")
 print("Thank you!")  
     
