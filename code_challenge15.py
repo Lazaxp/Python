@@ -1,6 +1,6 @@
 anilist = []
 while True:
-  show = input("Reccomend any anime for me").capitalize()
+  show = input("Reccomend any anime for me:\t").capitalize()
   anilist.append(show)
   if show == "Rent-a-girlfriend" or show == "Rent a girlfriend":
     print("pass")
