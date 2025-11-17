@@ -43,6 +43,42 @@ Summation of numbers entered of user using For Loops
 activity 14 (https://github.com/Lazaxp/Python/blob/main/activity14.py)
 Using for loops to count backwards
 
+activity 15 (https://github.com/Lazaxp/Python/blob/main/activity15.py)
+total sum of odd numbers 
+
+activity 16 (https://github.com/Lazaxp/Python/blob/main/activity16.py)
+printing horizontally
+
+activity 17 (https://github.com/Lazaxp/Python/blob/main/activity17.py)
+printing counting numbers
+
+activity 18 ()
+
+activity 19 ()
+
+activity 20 ()
+
+activity 21 (https://github.com/Lazaxp/Python/blob/main/activity21.py)
+while loops application
+
+activity 22 (https://github.com/Lazaxp/Python/blob/main/activity22.py)
+python import module
+
+activity 23 (https://github.com/Lazaxp/Python/blob/main/activity23.py)
+list function
+
+activity 24 & 24_1 (https://github.com/Lazaxp/Python/blob/main/activity24.py - https://github.com/Lazaxp/Python/blob/main/activity24_1.py)
+import defined functions
+
+activity 25 & 25_1 (https://github.com/Lazaxp/Python/blob/main/activity25.py - https://github.com/Lazaxp/Python/blob/main/activity25_1.py)
+code compiler
+
+activity 26 (https://github.com/Lazaxp/Python/blob/main/activity26.py)
+dictionary function
+
+activity 27 (https://github.com/Lazaxp/Python/blob/main/activity27.py)
+adding dictionary
+
 code challenge 1 (https://github.com/Lazaxp/Python/blob/main/codechallenge1.py)
 Diamond Shaped Asterisks with User name input in the middle
 
@@ -69,3 +105,20 @@ Multiplication Table Display
 
 code challenge 9 (https://github.com/Lazaxp/Python/blob/main/code_challenge9.py)
 Simple Countdown Simulator
+
+code challenge 10 (https://github.com/Lazaxp/Python/blob/main/code_challenge10.py)
+triangle asterisks using for loops
+
+code challenge 11 ()
+
+code challenge 12 (https://github.com/Lazaxp/Python/blob/main/code_challenge12.py)
+pyramid of palindrome numbers
+
+code challenge 13 (https://github.com/Lazaxp/Python/blob/main/code_challenge13.py)
+christmas tree
+
+code challenge 14 (https://github.com/Lazaxp/Python/blob/main/code_challenge14.py)
+odd number compiler
+
+code challenge 15 (https://github.com/Lazaxp/Python/blob/main/code_challenge15.py)
+anime reccomendation using list
