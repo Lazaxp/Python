@@ -1,8 +1,8 @@
-import os
+import os, json
 records = {}
 while True:
     print("Welcome to Student Record Program - Select from the Options Below:\n\n")
-    print("Add - Add Info\nSearch - Search Info\nDel - Delete a Record\nMod - Modify Recored\nAll - Show all current Records\nExp - Export Data")
+    print("Add - Add Info\nSrh - Search Info\nDel - Delete a Record\nMod - Modify Recored\nAll - Show all current Records\nExp - Export Data")
     res = input("Type here:\t").capitalize()
     os.system("cls")
     if res == "Add":
@@ -14,13 +14,13 @@ while True:
         lname = input("Input Student Last Name:\t").upper()
         course = input("Input Student Course:\t").upper()
         email = input("Input Student Email Address:\t").upper()
-        if "@gmail.com" in email:
+        if "@" in email:
             continue
         else:
             print("Invalid Email")
         os.system("cls")
         records = {code :[fname, lname, course, email]}
-        print("Data has been Recorded.")
+        print("Data has been Recorded.\n\n")
     elif res == "Search":
         print("- Search Student Records - ")
         key = input("Input here your Student Key:\t").upper()
@@ -32,6 +32,7 @@ while True:
                     print(f" - {y}")
             else:
                 print("Record Not Found")
+            break
     elif res == "Del" or res == "Delete":
         os.system("cls")
         print("- Delete Student Record -")
@@ -47,18 +48,26 @@ while True:
             print("Record Found")
             for y in records[key]:
                 print(f" - {y}")
-            print("Input new Student Record")
-            code = input("Input Student Key:\t")
-            records.pop(key)
-            records[code] = []
-            fname = input("Input Student First Name:\t").upper()
-            lname = input("Input Student Last Name:\t").upper()
-            course = input("Input Student Course:\t").upper()
-            email = input("Input Student Email Address:\t").upper()
-            if "@gmail.com" in email:
-                continue
+            print("Input Student Record to modify:\nf - Student First Name\nl - Student Last Name\nC - Student Course\n@ - Student Email")
+            sel = input("Type Here:\t").capitalize()
+            if sel == "F":
+                fname = input("Input Student First Name:\t").upper()
+                records[key][0] = fname
+            elif sel == "L":
+                lname = input("Input Student Last Name:\t").upper()
+                records[key][1] = lname
+            elif sel == "C":
+                course = input("Input Student Course:\t").upper()
+                records[key][2] = course
+            elif sel == "@":
+                email = input("Input Student Email Address:\t").upper()
+                records[key][3] = email
+                if "@.com" in email:
+                    continue
+                else:
+                    print("Invalid Email")
             else:
-                print("Invalid Email")
+                print("Please select from the options.")
             os.system("cls")
             records = {code :[fname, lname, course, email]}
             print("Data Modified")
@@ -70,7 +79,12 @@ while True:
         for x, y in records.items():
             print(f"Student ID: {x} Record: {y}")
     elif res == "Exp":
-        print("- Export Record -")
+        os.system("cls")
+        print("- Export Record -\n\n")
+        with open('record.json', 'w') as new_file:
+            record = json.dump(records,new_file,indent=4)
+        records = record
+        print("Data Exported to record.json\n\n")
     else:
         os.system("cls")
         print("\nPlease Select within the Options.\n")
