@@ -1,5 +1,8 @@
 import os, json
 records = {}
+with open('record.json', 'r') as new_file:
+    record = json.load(new_file)
+records = record
 while True:
     print("Welcome to Student Record Program - Select from the Options Below:\n\n")
     print("Add - Add Info\nSrh - Search Info\nDel - Delete a Record\nMod - Modify Recored\nAll - Show all current Records\nExp - Export Data")
@@ -9,16 +12,12 @@ while True:
         
         print("- Add a your Students Info -\n")
         code = input("Input Student Key:\t")
-        records[code] = []
         fname = input("Input Student First Name:\t").upper()
         lname = input("Input Student Last Name:\t").upper()
         course = input("Input Student Course:\t").upper()
         email = input("Input Student Email Address:\t").upper()
-        if "@" in email:
-            continue
-        else:
-            print("Invalid Email")
         os.system("cls")
+        records[code] = []
         records = {code :[fname, lname, course, email]}
         print("Data has been Recorded.\n\n")
     elif res == "Search":
@@ -78,6 +77,7 @@ while True:
         print("- All Student Records -")
         for x, y in records.items():
             print(f"Student ID: {x} Record: {y}")
+            break
     elif res == "Exp":
         os.system("cls")
         print("- Export Record -\n\n")
@@ -88,3 +88,4 @@ while True:
     else:
         os.system("cls")
         print("\nPlease Select within the Options.\n")
+
