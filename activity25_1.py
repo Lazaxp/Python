@@ -59,24 +59,6 @@ def activity9():
     print((year == '2025') and (month == 'august'))
     print("it is currently the month of August in the year 2025")
 
-def activity11():
-    temp = eval(input("What is the temperature?\t"))
-    if temp <= (-1):
-	    print("Temp is; Freezing Cold")
-    elif temp >= 1 and temp <=20:
-	    print("Temp is; U cold buddy")
-    elif temp >= 21 and temp <=30:
-	    print("Temp is; Lukewarm")
-    elif temp >= 31 and temp <=40:
-	    print("Temp is; Warm")
-    elif temp >= 41 and temp <= 50:
-	    print("Temp is; hot! hot!")
-    elif temp >= 51:
-	    print("Temp is; Boiling Hot")
-    else:
-	    print("?")
-          
-def activity12():
-      #For loops
-    for x in range (11):
-        print(x,"- Hello World")
+def activity10():
+    name = input("What is you name?:")
+    student = input("Hi", name,"are you a regular passenger?"
