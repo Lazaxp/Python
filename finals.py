@@ -31,8 +31,8 @@ while True:
             print("Live addition without needing to recall variable\n")
             activity7()
         elif al == "C":
-            print("\n")
-            activity8("true or false statements with numbers\n")
+            print("true or false statements with numbers\n")
+            activity8()
         elif al == "D":
             print("true or false statements with strings\n")
             activity9()
@@ -99,4 +99,5 @@ while True:
         break
     else: 
         print("Please Select within the options")
+
 
