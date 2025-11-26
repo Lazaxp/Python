@@ -1,56 +1,56 @@
-from activity25_1 import *
+from finals_1 import *
 name = input("Hi, Whats your Name?:\t").capitalize()
 while True:
     print(f"\n\nWelcome {name} to my Code Compiler.\nSelect a program section you want to run:")
-    sel = input("A - Activity 1-5\nB - Activity 6-10\nC - Activity 11-15\nD - Activity 16-20\nE - Activity 21-24\nF - Code Challenge 1-15\nType Here:\t").upper()
+    sel = input("A - Activity 1-5\nB - Activity 6-10\nC - Activity 11-15\nD - Activity 16-20\nE - Activity 21-24\nType Here:\t").upper()
     if sel == "A":
         al = input("\n\nSelected Section A:\nA - Activity 1\nB - Activity 2\nC - Activity 3\nD - Activity 4\nE - Activity 5\nType Here:\t").upper()
         if al == "A":
             print("This Program Presents the simplest function in python which is the Print Function\n")
             activity1()
         elif al == "B":
-            print("\n")
+            print("Input function action\n")
             activity2()
         elif al == "C":
             print("\n")
             activity3()
         elif al == "D":
-            print("\n")
+            print("Use of the Length Function\n")
             activity4()
         elif al == "E":
-            print("\n")
+            print("Simple math using variables to show age based on birth\n")
             activity5()
         else:
             print("Please Select within the options")
     elif sel == "B":
         al = input("\n\nSelected Section B:\nA - Activity 6\nB - Activity 7\nC - Activity 8\nD - Activity 9\nE - Activity 10\nType Here:\t").upper()
         if al == "A":
-            print("\n")
+            print("Elementary Maths\n")
             activity6()
         elif al == "B":
-            print("\n")
+            print("Live addition without needing to recall variable\n")
             activity7()
         elif al == "C":
             print("\n")
-            activity8()
+            activity8("true or false statements with numbers\n")
         elif al == "D":
-            print("\n")
+            print("true or false statements with strings\n")
             activity9()
         elif al == "E":
-            print("\n")
+            print("fair counter using conditional statements\n")
             activity10()
         else:
             print("Please Select within the options")
     elif sel == "C":
         al = input("\n\nSelected Section C:\nA - Activity 11\nB - Activity 12\nC - Activity 13\nD - Activity 14\nE - Activity 15\nType Here:\t").upper()
         if al == "A":
-            print("\n")
+            print("Temperature Determinator with Conditional statements and Elif function\n")
             activity11()
         elif al == "B":
-            print("\n")
+            print("application of the for loop function\n")
             activity12()
         elif al == "C":
-            print("\n")
+            print("use for loops to ask user 10 numbers and add the sum\n")
             activity13()
         elif al == "D":
             print("\n")
@@ -95,9 +95,8 @@ while True:
             activity24()
         else:
             print("Please Select within the options")
-    elif sel == "F":
-        al = input("\n\nSelected Section F:\nCode Challenge 1-15\nType Here:\t").upper()
     elif sel == "Exit":
         break
     else: 
         print("Please Select within the options")
+
