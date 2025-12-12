@@ -12,7 +12,7 @@ while True:
             print("Input function action\n")
             activity2()
         elif al == "C":
-            print("\n")
+            print("Using Escape Sequences(\\t\\n)\n")
             activity3()
         elif al == "D":
             print("Use of the Length Function\n")
@@ -80,7 +80,7 @@ while True:
         else:
             print("Please Select within the options")
     elif sel == "E":
-        al = input("\n\nSelected Section E:\nA - Activity 21\nB - Activity 22\nC - Activity 23\nD - Activity 24\nType Here:\t").upper()
+        al = input("\n\nSelected Section E:\nA - Activity 21\nB - Activity 22\nC - Activity 23\nD - Activity 24\nE - Activity 25\nType Here:\t").upper()
         if al == "A":
             print("Introduction to the While Loop\n")
             activity21()
@@ -101,7 +101,7 @@ while True:
         else:
             print("Please Select within the options")
     elif sel == "F":
-        al = input("\n\nSelected Section E:\nA - Activity 21\nB - Activity 22\nC - Activity 23\nD - Activity 24\nType Here:\t").upper
+        al = input("\n\nSelected Section F:\nA - Activity 26\nB - Activity 27\nC - Activity 28\nType Here:\t").upper
         if al == "A":
             print("Introduction to the Dictionary Function\n")
             activity26()
@@ -113,10 +113,13 @@ while True:
             activity28()
         else:
             print("Please Select within the options")
+    elif sel == "CODE CHALLENGE":
+        al = input("\n\nSelected Section Code Challenge:\n")
     elif sel == "Exit":
         break
     else: 
         print("Please Select within the options")
+
 
 
 
