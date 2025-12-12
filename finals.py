@@ -19,7 +19,7 @@ while True:
             activity4()
         elif al == "E":
             print("Simple math using variables to show age based on birth\n")
-            activity5()
+            activity5()         
         else:
             print("Please Select within the options")
     elif sel == "B":
@@ -53,29 +53,29 @@ while True:
             print("use for loops to ask user 10 numbers and add the sum\n")
             activity13()
         elif al == "D":
-            print("\n")
+            print("Printing the for loops in descending order\n")
             activity14()
         elif al == "E":
-            print("\n")
+            print("Introduction to Formatting strings, with using for loop to find the summation of of odd numbers from the users input\n")
             activity15()
         else:
             print("Please Select within the options")
     elif sel == "D":
         al = input("\n\nSelected Section D:\nA - Activity 16\nB - Activity 17\nC - Activity 18\nD - Activity 19\nE - Activity 20\nType Here:\t").upper()
         if al == "A":
-            print("\n")
+            print("printing 'x' in for loops and using the end function to add a comma at each number\n")
             activity16()
         elif al == "B":
-            print("\n")
+            print("Using nested For Loops to print numbers in succession\n")
             activity17()
         elif al == "C":
-            print("\n")
+            print("Nested For Loops but using the first for loop as the end point of the second to create this\n")
             activity18()
         elif al == "D":
-            print("\n")
+            print("Similar to Activity 18 but instead printing asterisks\n")
             activity19()
         elif al == "E":
-            print("\n")
+            print("this is just activity 19\n")
             activity20()
         else:
             print("Please Select within the options")
@@ -99,5 +99,6 @@ while True:
         break
     else: 
         print("Please Select within the options")
+
 
 
