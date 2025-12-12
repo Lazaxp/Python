@@ -82,23 +82,42 @@ while True:
     elif sel == "E":
         al = input("\n\nSelected Section E:\nA - Activity 21\nB - Activity 22\nC - Activity 23\nD - Activity 24\nType Here:\t").upper()
         if al == "A":
-            print("\n")
+            print("Introduction to the While Loop\n")
             activity21()
         elif al == "B":
-            print("\n")
+            print("Application of Imported Modules\n")
             activity22()
         elif al == "C":
-            print("\n")
+            print("The List Function with its abilities and others\n")
             activity23()
         elif al == "D":
-            print("\n")
+            print("Defined functions and how it can be applied\n")
             activity24()
+            print("This is from using your own files as a module.")
+            activity24_1()
+        elif al == "E":
+            print("This is a smaller edition of this finals project")
+            activity25()
+        else:
+            print("Please Select within the options")
+    elif sel == "F":
+        al = input("\n\nSelected Section E:\nA - Activity 21\nB - Activity 22\nC - Activity 23\nD - Activity 24\nType Here:\t").upper
+        if al == "A":
+            print("Introduction to the Dictionary Function\n")
+            activity26()
+        elif al == "B":
+            print("Using Dictionary, Defined Functions, while loops to create an anime listing program\n")
+            activity27()
+        elif al == "C":
+            print("The Pygame Module\n")
+            activity28()
         else:
             print("Please Select within the options")
     elif sel == "Exit":
         break
     else: 
         print("Please Select within the options")
+
 
 
 
