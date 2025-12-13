@@ -1,126 +1,322 @@
 from finals_1 import *
+import os, time
+def c(): 
+    os.system("cls")
 name = input("Hi, Whats your Name?:\t").capitalize()
-while True:
-    print(f"\n\nWelcome {name} to my Code Compiler.\nSelect a program section you want to run:")
-    sel = input("A - Activity 1-5\nB - Activity 6-10\nC - Activity 11-15\nD - Activity 16-20\nE - Activity 21-24\nType Here:\t").upper()
-    if sel == "A":
-        al = input("\n\nSelected Section A:\nA - Activity 1\nB - Activity 2\nC - Activity 3\nD - Activity 4\nE - Activity 5\nType Here:\t").upper()
-        if al == "A":
-            print("This Program Presents the simplest function in python which is the Print Function\n")
-            activity1()
-        elif al == "B":
-            print("Input function action\n")
-            activity2()
-        elif al == "C":
-            print("Using Escape Sequences(\\t\\n)\n")
-            activity3()
-        elif al == "D":
-            print("Use of the Length Function\n")
-            activity4()
-        elif al == "E":
-            print("Simple math using variables to show age based on birth\n")
-            activity5()         
-        else:
+print("give us one second!")
+def n():
+    time.sleep(5)
+    c()
+    while True:
+        print(f"\n\nWelcome {name} to my Code Compiler.\nSelect a program section you want to run:")
+        sel = input("A - Activity 1-5\nB - Activity 6-10\nC - Activity 11-15\nD - Activity 16-20\nE - Activity 21-25\nF - Activity 26-28\nCC - Code Challenge\nType Here:\t").upper()
+        if sel == "A":
+            c()
+            al = input("\n\nSelected Section A:\nA - Activity 1\nB - Activity 2\nC - Activity 3\nD - Activity 4\nE - Activity 5\nType Here:\t").upper()
+            if al == "A":
+                c()
+                print("This Program Presents the simplest function in python which is the 'Print()' Function")
+                print("-----------------------------------------------------------------------------------")
+                time.sleep(1.5)
+                activity1()
+                print("-----------------------------------------------------------------------------------")
+                ctn = input('hit enter to continue\t')
+            elif al == "B":
+                c()
+                print("applying 'Input()' function to let users manually set variables")
+                print("-----------------------------------------------------------------------------------")
+                time.sleep(1.5)
+                activity2()
+                print("-----------------------------------------------------------------------------------")
+                ctn = input('hit enter to continue\t')
+            elif al == "C":
+                c()
+                print("Using Escape Sequences(\\t\\n)")
+                print("-----------------------------------------------------------------------------------")
+                time.sleep(1.5)
+                activity3()
+                print("-----------------------------------------------------------------------------------")
+                ctn = input('hit enter to continue\t')
+            elif al == "D":
+                c()
+                print("Use of the 'Length()' Function, this allows the computer to count letters into a string")
+                print("-----------------------------------------------------------------------------------")
+                time.sleep(1.5)
+                activity4()
+                print("-----------------------------------------------------------------------------------")
+                ctn = input('hit enter to continue\t')
+            elif al == "E":
+                c()
+                print("Simple mathematical operators using variables to show age based on birth")
+                print("-----------------------------------------------------------------------------------")
+                time.sleep(1.5)
+                activity5()   
+                print("-----------------------------------------------------------------------------------")
+                ctn = input('hit enter to continue\t')      
+            else:
+                print("Please Select within the options")
+        elif sel == "B":
+            c()
+            al = input("\n\nSelected Section B:\nA - Activity 6\nB - Activity 7\nC - Activity 8\nD - Activity 9\nE - Activity 10\nType Here:\t").upper()
+            if al == "A":
+                c()
+                print("Elementary Math using mathematical operators")
+                print("-----------------------------------------------------------------------------------")
+                time.sleep(1.5)
+                activity6()
+                print("-----------------------------------------------------------------------------------")
+                ctn = input('hit enter to continue\t')
+            elif al == "B":
+                c()
+                print("Live addition without needing to recall variable")
+                print("-----------------------------------------------------------------------------------")
+                time.sleep(1.5)
+                activity7()
+                print("-----------------------------------------------------------------------------------")
+                ctn = input('hit enter to continue\t')
+            elif al == "C":
+                c()
+                print("true or false statements with numbers")
+                print("-----------------------------------------------------------------------------------")
+                time.sleep(1.5)
+                activity8()
+                print("-----------------------------------------------------------------------------------")
+                ctn = input('hit enter to continue\t')
+            elif al == "D":
+                c()
+                print("true or false statements with strings")
+                print("-----------------------------------------------------------------------------------")
+                time.sleep(1.5)
+                activity9()
+                print("-----------------------------------------------------------------------------------")
+                ctn = input('hit enter to continue\t')
+            elif al == "E":
+                c()
+                print("fair counter using conditional statements")
+                print("-----------------------------------------------------------------------------------")
+                time.sleep(1.5)
+                activity10()
+                print("-----------------------------------------------------------------------------------")
+                ctn = input('hit enter to continue\t')
+            else:
+                print("Please Select within the options")
+        elif sel == "C":
+            c()
+            al = input("\n\nSelected Section C:\nA - Activity 11\nB - Activity 12\nC - Activity 13\nD - Activity 14\nE - Activity 15\nType Here:\t").upper()
+            if al == "A":
+                c()
+                print("Temperature Determinator with Conditional statements and Elif function")
+                print("-----------------------------------------------------------------------------------")
+                time.sleep(1.5)
+                activity11()
+                print("-----------------------------------------------------------------------------------")
+                ctn = input('hit enter to continue\t')
+            elif al == "B":
+                c()
+                print("application of the for loop function")
+                print("-----------------------------------------------------------------------------------")
+                time.sleep(1.5)
+                activity12()
+                print("-----------------------------------------------------------------------------------")
+                ctn = input('hit enter to continue\t')
+            elif al == "C":
+                c()
+                print("use for loops to ask user 10 numbers and add the sum")
+                print("-----------------------------------------------------------------------------------")
+                time.sleep(1.5)
+                activity13()
+                print("-----------------------------------------------------------------------------------")
+                ctn = input('hit enter to continue\t')
+            elif al == "D":
+                c()
+                print("Printing the for loops in descending order")
+                print("-----------------------------------------------------------------------------------")
+                time.sleep(1.5)
+                activity14()
+                print("-----------------------------------------------------------------------------------")
+                ctn = input('hit enter to continue\t')
+            elif al == "E":
+                c()
+                print("Introduction to Formatting strings, with using for loop to find the summation of of odd numbers from the users input")
+                print("-----------------------------------------------------------------------------------")
+                time.sleep(1.5)
+                activity15()
+                print("-----------------------------------------------------------------------------------")
+                ctn = input('hit enter to continue\t')
+            else:
+                print("Please Select within the options")
+        elif sel == "D":
+            c()
+            al = input("\n\nSelected Section D:\nA - Activity 16\nB - Activity 17\nC - Activity 18\nD - Activity 19\nE - Activity 20\nType Here:\t").upper()
+            if al == "A":
+                c()
+                print("printing 'x' in for loops and using the end function to add a comma at each number")
+                print("-----------------------------------------------------------------------------------")
+                time.sleep(1.5)
+                activity16()
+                print("-----------------------------------------------------------------------------------")
+                ctn = input('hit enter to continue\t')
+            elif al == "B":
+                c()
+                print("Using nested For Loops to print numbers in succession")
+                print("-----------------------------------------------------------------------------------")
+                time.sleep(1.5)
+                activity17()
+                print("-----------------------------------------------------------------------------------")
+                ctn = input('hit enter to continue\t')
+            elif al == "C":
+                c()
+                print("Nested For Loops but using the first for loop as the end point of the second to create this")
+                print("-----------------------------------------------------------------------------------")
+                time.sleep(1.5)
+                activity18()
+                print("-----------------------------------------------------------------------------------")
+                ctn = input('hit enter to continue\t')
+            elif al == "D":
+                c()
+                print("Similar to Activity 18 but instead printing asterisks")
+                print("-----------------------------------------------------------------------------------")
+                time.sleep(1.5)
+                activity19()
+                print("-----------------------------------------------------------------------------------")
+                ctn = input('hit enter to continue\t')
+            elif al == "E":
+                c()
+                print("this is just activity 19")
+                print("-----------------------------------------------------------------------------------")
+                time.sleep(1.5)
+                activity20()
+                print("-----------------------------------------------------------------------------------")
+                ctn = input('hit enter to continue\t')
+            else:
+                print("Please Select within the options")
+        elif sel == "E":
+            c()
+            al = input("\n\nSelected Section E:\nA - Activity 21\nB - Activity 22\nC - Activity 23\nD - Activity 24\nE - Activity 25\nType Here:\t").upper()
+            if al == "A":
+                c()
+                print("Introduction to the While Loop")
+                print("-----------------------------------------------------------------------------------")
+                time.sleep(1.5)
+                activity21()
+                print("-----------------------------------------------------------------------------------")
+                ctn = input('hit enter to continue\t')
+            elif al == "B":
+                c()
+                print("Application of Imported Modules")
+                print("-----------------------------------------------------------------------------------")
+                time.sleep(1.5)
+                activity22()
+                print("-----------------------------------------------------------------------------------")
+                ctn = input('hit enter to continue\t')
+            elif al == "C":
+                c()
+                print("The List Function with its abilities and others")
+                print("-----------------------------------------------------------------------------------")
+                time.sleep(1.5)
+                activity23()
+                print("-----------------------------------------------------------------------------------")
+                ctn = input('hit enter to continue\t')
+            elif al == "D":
+                c()
+                print("Defined functions and how it can be applied")
+                print("-----------------------------------------------------------------------------------")
+                time.sleep(1.5)
+                activity24()
+                print("-----------------------------------------------------------------------------------")
+                print("This is from using your own files as a module.")
+                print("-----------------------------------------------------------------------------------")
+                time.sleep(1.5)
+                activity24_1()
+                print("-----------------------------------------------------------------------------------")
+                ctn = input('hit enter to continue\t')
+            elif al == "E":
+                c()
+                print("This is a smaller edition of this finals project")
+                print("-----------------------------------------------------------------------------------")
+                activity25()
+                print("-----------------------------------------------------------------------------------")
+                ctn = input('hit enter to continue\t')
+            else:
+                print("Please Select within the options")
+        elif sel == "F":
+            c()
+            al = input("\n\nSelected Section F:\nA - Activity 26\nB - Activity 27\nC - Activity 28\nType Here:\t").upper()
+            if al == "A":
+                c()
+                print("Introduction to the Dictionary Function")
+                print("-----------------------------------------------------------------------------------")
+                time.sleep(1.5)
+                activity26()
+                print("-----------------------------------------------------------------------------------")
+                ctn = input('hit enter to continue\t')
+            elif al == "B":
+                c()
+                print("Using Dictionary, Defined Functions, while loops to create an anime listing program")
+                print("-----------------------------------------------------------------------------------")
+                time.sleep(1.5)
+                activity27()
+                print("-----------------------------------------------------------------------------------")
+                ctn = input('hit enter to continue\t')
+            elif al == "C":
+                c()
+                print("The Pygame Module")
+                print("-----------------------------------------------------------------------------------")
+                time.sleep(1.5)
+                activity28()
+                print("-----------------------------------------------------------------------------------")
+                ctn = input('hit enter to continue\t')
+            else:
+                print("Please Select within the options")
+        elif sel == "CODE CHALLENGE":
+            c()
+            print("i have selected here all the most note worthy code challenges we had")
+            al = input("\n\nSelected Section Code Challenge:\n A - Code Challenge 2\n B - Code Challenge 5\n C - Code Challenge 8\n D - Code Challenge 15\n E - Code Challenge 16\n").upper()
+            if al == "A":
+                c()
+                print("This code challenge was pretty hard. Using the Modulo mathematical operator to divide\nand count how many of each currency in th e input it would take")
+                print("-----------------------------------------------------------------------------------")
+                time.sleep(1.5)
+                cchallenge2()
+                print("-----------------------------------------------------------------------------------")
+                ctn = input('hit enter to continue\t')
+            elif al == "B":
+                c()
+                print("This code challenge tackles using nested conditional statementents. The goal is  to create an\nanime reccomendation program for different genres")
+                print("-----------------------------------------------------------------------------------")
+                time.sleep(1.5)
+                cchallenge5()
+                print("-----------------------------------------------------------------------------------")
+                ctn = input('hit enter to continue\t')
+            elif al == "C":
+                c()
+                print("This code challenge focuses in using the for loops to create a multiplication table\ndepending on ther users input")
+                print("-----------------------------------------------------------------------------------")
+                time.sleep(1.5)
+                cchallenge8()
+                print("-----------------------------------------------------------------------------------")
+                ctn = input('hit enter to continue\t')
+            elif al == "D":
+                c()
+                print("this code challenge applies what we learned in listing. The goal here is to create an\nAnime for to user t reccomend")
+                print("-----------------------------------------------------------------------------------")
+                time.sleep(1.5)
+                cchallenge15()
+                print("-----------------------------------------------------------------------------------")
+                ctn = input('hit enter to continue\t')
+            elif al == "E":
+                c()
+                print("This code challenge adds multiple new things in our knowledge, importing the OS module\nand the JSON module that allows us to use commands and save informationn")
+                print("-----------------------------------------------------------------------------------")
+                time.sleep(1.5)
+                cchallenge16()
+                print("-----------------------------------------------------------------------------------")
+                ctn = input('hit enter to continue\t')
+        elif sel == "Exit":
+            break
+        else: 
             print("Please Select within the options")
-    elif sel == "B":
-        al = input("\n\nSelected Section B:\nA - Activity 6\nB - Activity 7\nC - Activity 8\nD - Activity 9\nE - Activity 10\nType Here:\t").upper()
-        if al == "A":
-            print("Elementary Maths\n")
-            activity6()
-        elif al == "B":
-            print("Live addition without needing to recall variable\n")
-            activity7()
-        elif al == "C":
-            print("true or false statements with numbers\n")
-            activity8()
-        elif al == "D":
-            print("true or false statements with strings\n")
-            activity9()
-        elif al == "E":
-            print("fair counter using conditional statements\n")
-            activity10()
-        else:
-            print("Please Select within the options")
-    elif sel == "C":
-        al = input("\n\nSelected Section C:\nA - Activity 11\nB - Activity 12\nC - Activity 13\nD - Activity 14\nE - Activity 15\nType Here:\t").upper()
-        if al == "A":
-            print("Temperature Determinator with Conditional statements and Elif function\n")
-            activity11()
-        elif al == "B":
-            print("application of the for loop function\n")
-            activity12()
-        elif al == "C":
-            print("use for loops to ask user 10 numbers and add the sum\n")
-            activity13()
-        elif al == "D":
-            print("Printing the for loops in descending order\n")
-            activity14()
-        elif al == "E":
-            print("Introduction to Formatting strings, with using for loop to find the summation of of odd numbers from the users input\n")
-            activity15()
-        else:
-            print("Please Select within the options")
-    elif sel == "D":
-        al = input("\n\nSelected Section D:\nA - Activity 16\nB - Activity 17\nC - Activity 18\nD - Activity 19\nE - Activity 20\nType Here:\t").upper()
-        if al == "A":
-            print("printing 'x' in for loops and using the end function to add a comma at each number\n")
-            activity16()
-        elif al == "B":
-            print("Using nested For Loops to print numbers in succession\n")
-            activity17()
-        elif al == "C":
-            print("Nested For Loops but using the first for loop as the end point of the second to create this\n")
-            activity18()
-        elif al == "D":
-            print("Similar to Activity 18 but instead printing asterisks\n")
-            activity19()
-        elif al == "E":
-            print("this is just activity 19\n")
-            activity20()
-        else:
-            print("Please Select within the options")
-    elif sel == "E":
-        al = input("\n\nSelected Section E:\nA - Activity 21\nB - Activity 22\nC - Activity 23\nD - Activity 24\nE - Activity 25\nType Here:\t").upper()
-        if al == "A":
-            print("Introduction to the While Loop\n")
-            activity21()
-        elif al == "B":
-            print("Application of Imported Modules\n")
-            activity22()
-        elif al == "C":
-            print("The List Function with its abilities and others\n")
-            activity23()
-        elif al == "D":
-            print("Defined functions and how it can be applied\n")
-            activity24()
-            print("This is from using your own files as a module.")
-            activity24_1()
-        elif al == "E":
-            print("This is a smaller edition of this finals project")
-            activity25()
-        else:
-            print("Please Select within the options")
-    elif sel == "F":
-        al = input("\n\nSelected Section F:\nA - Activity 26\nB - Activity 27\nC - Activity 28\nType Here:\t").upper
-        if al == "A":
-            print("Introduction to the Dictionary Function\n")
-            activity26()
-        elif al == "B":
-            print("Using Dictionary, Defined Functions, while loops to create an anime listing program\n")
-            activity27()
-        elif al == "C":
-            print("The Pygame Module\n")
-            activity28()
-        else:
-            print("Please Select within the options")
-    elif sel == "CODE CHALLENGE":
-        al = input("\n\nSelected Section Code Challenge:\n")
-    elif sel == "Exit":
-        break
-    else: 
-        print("Please Select within the options")
-
-
+n()
 
 
 
