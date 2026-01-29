@@ -18,6 +18,7 @@ if average <= len(word):
 elif average >= len(word):
     print(f"Your word ({word}) word length is GREATER than the AVERAGE of your number inputs: {average}")
 else
-    printf(f"Your word ({word}) word length is EQUAL than the AVERAGE of your number inputs: {average}")
+    print(f"Your word ({word}) word length is EQUAL than the AVERAGE of your number inputs: {average}")
+
 
 
