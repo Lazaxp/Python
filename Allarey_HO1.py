@@ -12,10 +12,11 @@ for x in range(len(word)):
     total+=numbers
 average = total / len(word)
 os.system("cls")
-print(f"Word Input: {word}\nWord Length: {len(word)}\nNumber Inputs: {numlist}\n")
+print(f"Word Input: {word}\nWord Length: {len(word)}\nNumber Inputs: {numlist}\Total: {total}")
 if average <= len(word):
     print(f"Your word ({word}) word length is LESS than the AVERAGE of your number inputs: {average}")
 elif average >= len(word):
     print(f"Your word ({word}) word length is GREATER than the AVERAGE of your number inputs: {average}")
 else:
+
     printf(f"Your word ({word}) word length is EQUAL than the AVERAGE of your number inputs: {average}")
