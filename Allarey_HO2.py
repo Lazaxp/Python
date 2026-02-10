@@ -18,4 +18,5 @@ label = tk.Label(window, text = "Motto:", font = ("cosmic sans", 11, "bold"), fg
 label.pack(pady=5)
 label = tk.Label(window, text = "\"Any change is better than no change\"", font = ("mistral", 18), fg = "white",bg = "black",  anchor = "center")
 label.pack(pady=5)
+
 window.mainloop() 
