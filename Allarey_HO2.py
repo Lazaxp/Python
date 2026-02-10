@@ -4,7 +4,7 @@ import tkinter as tk
 window = tk.Tk()
 window.title("Student Profile")
 window.geometry("600x600")
-window.resizable(True, True)
+window.resizable(False, True)
 window.configure(bg = "light gray")
 label = tk.Label(window, text = "STUDENT PROFILE", font = ("Arial Black", 30, "bold"), fg = "white" ,bg = "gray",  anchor = "center", width = 200)
 label.pack()
@@ -20,3 +20,4 @@ label = tk.Label(window, text = "\"Any change is better than no change\"", font 
 label.pack(pady=5)
 
 window.mainloop() 
+
