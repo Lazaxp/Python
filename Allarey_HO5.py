@@ -1,15 +1,15 @@
 import os
+
 while True:
     os.system("cls")
     print("=== Dream Files Manager ===")
     print("1.) Read Inspiring Messages\n2.) Add your Inspiring Message\n3.) Rewrite the File\n4.) Exit")
-
     option = int(input("Type here: "))
 
     if option == 1:
         with open("dreams.txt", "r") as file:
             content = file.read()
-            print("=================================================================================\n")
+            print("===============================INSPIRING MESSAGES================================\n")
             print(content)
             print("\n=================================================================================")
             move = input("Press Enter to Continue.")
@@ -19,10 +19,10 @@ while True:
             file = open("dreams.txt", "a")
             new_message = input("\nType here for your new Inspiring Message: ")
             file.write(f"\n{new_message}")
-            print("New Inspirations!:")
+            print("New Inspirations! Inspiration Added:")
             with open("dreams.txt", "r") as file:
                 content = file.read()
-                print("=================================================================================\n")
+                print("===============================INSPIRING MESSAGES===============================\n")
                 print(content)
                 print("\n=================================================================================")
             cycle = input("\nContinue?(y/n): ")
@@ -42,10 +42,10 @@ while True:
             new_message = input("\nType your new Inspiring Message here: ")
             file.write(new_message)
             file.close()
-            print("New Inspirations!:")
+            print("New Inspirations! Successfully Overwritten:")
             with open("dreams.txt", "r") as file:
                 content = file.read()
-                print("=================================================================================\n")
+                print("===============================INSPIRING MESSAGES===============================\n")
                 print(content)
                 print("\n=================================================================================")
                 move = input("Press Enter to Continue.")
