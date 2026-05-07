@@ -9,6 +9,8 @@ sheet["C1"] = "Last Name"
 sheet["D1"] = "Birth Year"
 sheet["E1"] = "Age"
 
+print("Welcome to the Favorite People Recorder!")
+print("Input Three(3) of your Most Favorite People!")
 
 for x in range(1, 4):
     print(f"Person {x}")
